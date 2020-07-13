@@ -1,0 +1,124 @@
+  body{
+          
+          font-family: sans-serif;
+          margin-top: 20px;
+          padding: 30px;
+      }
+ 
+header {
+      
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    
+    
+    
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+header *{
+display: inline ;
+
+
+}
+header li{
+margin:10px ;
+margin-top: 15px;
+float: right;
+
+ 
+}
+header li a{
+display: block;
+text-decoration: none;
+color:black;
+
+font-size: 18px;
+
+}
+
+
+
+
+nav li a:hover{
+color:gray;
+text-shadow: white;
+text-decoration: underline;
+}
+.title{
+      
+      margin-top: 15px;
+      font-size: 20px;
+      margin-left: 20px;
+      margin-bottom: 10px;
+      
+ }
+.anothertitle{
+      color: red;
+      margin: 30px;
+    }
+
+
+.G{
+    color:#4285F4;
+}
+.O{
+    color: #DB4437;
+}
+.Og{
+    color: #F4B400;
+}
+.L{
+    color:#0F9D58;
+}
+.E{
+    color:#DB4437;
+}
+
+
+.searchbar1{
+    padding: 30px;
+    margin: 40px;
+    line-height: 30px;
+}
+
+
+form{
+     color: black;
+     text-decoration: none;
+
+ }
+
+
+input[type="text"]{
+    text-align: left;
+    width: 200px;
+    display:flex
+}
+
+input[type=submit]:hover{
+  color: #676;
+  }
+  
+  
+  
+     
+
+    
+
+
+.searchbar1 input[type=submit]{
+    color: #000;
+    background-color: #4285F4;
+    color: white;
+    border: none;
+    padding:10px;
+    margin-top: 20px;
+    
+
+}
+

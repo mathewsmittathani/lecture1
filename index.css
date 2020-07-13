@@ -1,0 +1,116 @@
+body{
+        
+    font-family: sans-serif;
+    margin-top: 20px;
+    padding: 30px;
+    }
+
+header{
+    
+    background-color:white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    
+    
+    
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    }
+
+header *{
+    display: inline ;
+}
+header li{
+    margin:10px;
+    margin-top: 15px;
+    float: right;    
+}
+header li a{
+    text-decoration: none;
+    color:black;
+    display: block;
+    font-size: 18px;
+    
+}
+
+
+nav li a:hover{
+    color:gray;
+    text-shadow: white;
+    text-decoration: underline;
+
+}
+.title{
+    text-align: center;
+    margin-top: 30vh;
+    font-size: 40px;}
+
+.G{
+    color:#4285F4;
+}
+.O{
+    color: #DB4437;
+}
+.Og{
+    color: #F4B400;
+}
+.L{
+    color:#0F9D58;
+}
+.E{
+    color:#DB4437;
+}
+.main{
+    margin-top: 10px;
+}
+
+.searchbar{
+  
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  -ms-transform: translate(-50%, -65%);
+  transform: translate(-50%, -65%);
+}
+ 
+#bar{
+    
+    height: 46px;
+    width: 600px;
+    background-color: transparent;
+    border: transparent;
+    border-radius: 25px;
+    -webkit-box-shadow: 3px 3px 9px 4px rgba(0,0,0,0.11);
+    -moz-box-shadow: 3px 3px 9px 4px rgba(0,0,0,0.11);
+    box-shadow: 3px 3px 9px 4px rgba(0,0,0,0.11);
+    outline: none;
+    padding: 0 20px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    margin: 20px;} 
+
+
+input[type=submit]:hover{
+    color: #676;
+}
+
+input[type=submit]{
+    background: #f2f2f2;
+    margin: 0px 15px;
+    border: transparent;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 16px;
+    height: 40px;
+    width: 250px;
+}
